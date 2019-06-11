@@ -118,6 +118,42 @@ namespace BinarySearchTreeProject
                             {
                                 return true;
                             }
+                            if (data > currentNode.data)
+                            {
+                                if (currentNode.right == null)
+                                {
+                                    return false;
+                                }
+                            }
+                            else
+                            {
+                                if (currentNode.left == null)
+                                {
+                                    return false;
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        if (currentNode.left == null)
+                        {
+                            return false;
+                        }
+                        else
+                        {
+                            currentNode = currentNode.left;
+                            if (currentNode.data == data)
+                            {
+                                return true;
+                            }
+                            if (data > currentNode.data)
+                            {
+                                if (currentNode.right == null)
+                                {
+                                    return false;
+                                }
+                            }
                             else
                             {
                                 if (currentNode.left == null)
