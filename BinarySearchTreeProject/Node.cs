@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BinarySearchTreeProject
 {
-    class Node
+    public class Node
     {
         //Member variables
         public int data;       
@@ -16,22 +16,11 @@ namespace BinarySearchTreeProject
         //Constructor
         public Node()
         {
-
+            
 
 
         }
 
         //Member variables
-
-
-       
-
-
-
-
-
-
-
-
     }
 }
