@@ -16,10 +16,7 @@ namespace BinarySearchTreeProject
         //Constructor
         public Node()
         {
-            
-
-
-        }
+        }        
 
         //Member variables
     }

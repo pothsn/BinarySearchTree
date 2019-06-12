@@ -15,9 +15,6 @@ namespace BinarySearchTreeProject
         public BinarySearchTree()
         {
             root = null;
-            
-
-
         }
 
         //Member methods
@@ -118,7 +115,7 @@ namespace BinarySearchTreeProject
                             {
                                 return true;
                             }
-                            if (data > currentNode.data)
+                            else if (data > currentNode.data)
                             {
                                 if (currentNode.right == null)
                                 {
@@ -147,7 +144,7 @@ namespace BinarySearchTreeProject
                             {
                                 return true;
                             }
-                            if (data > currentNode.data)
+                            else if (data > currentNode.data)
                             {
                                 if (currentNode.right == null)
                                 {
@@ -165,22 +162,6 @@ namespace BinarySearchTreeProject
                     }
                 }
             }
-
-
-
-
-
-
-
-
-
-
         }
-
-
-
-
-
-
     }
 }
